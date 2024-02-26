@@ -10,18 +10,27 @@ nav {
 }
 
 nav ul {
-    margin: 10;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
 }
 
 .navbar-list {
-    display: inline;
+    float: left;
 }
 
 .navbar-list a {
+    display: block;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 8px 16px;
+
+}
+
+.active {
+    background-color: #83c5be;
 }
 
 /* About Me */
