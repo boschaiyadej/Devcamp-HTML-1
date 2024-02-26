@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 10;
+    padding: 0;
+}
+
+.navbar-list {
+    display: inline;
+}
+
+.navbar-list a {
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+/* About Me content */
+.text-align {
+    text-align: center;
+}
+
+.pic-profile {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 16px auto;
+}
+
+.about-box {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.about-box p {
+    text-indent: 2.5em;
+}
