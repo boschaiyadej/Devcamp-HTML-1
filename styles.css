@@ -1,7 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
-}
+    }
 
 /* navbar */
 nav {
@@ -73,4 +73,24 @@ nav ul {
 .contact-box li {
     text-align: left;
     list-style-type: none;
+}
+
+/* search section */
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 12px;
+    padding: 10px;
+    border: 1px solid #83c5be;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    margin-left: 10px;
 }
